@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="pNz-YG-Kac">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ofx-BL-2sL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="HCL-Ps-P5q">
+                                        <rect key="frame" x="89.5" y="73.5" width="196" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="HCL-Ps-P5q" firstAttribute="centerX" secondItem="Ofx-BL-2sL" secondAttribute="centerX" id="CVh-OK-dR8"/>
+                                    <constraint firstItem="HCL-Ps-P5q" firstAttribute="centerY" secondItem="Ofx-BL-2sL" secondAttribute="centerY" id="p7e-je-zg8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zys-kL-lG2">
+                                <rect key="frame" x="0.0" y="274" width="375" height="145"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome in Dice App " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fh0-eC-qaP">
+                                        <rect key="frame" x="57.5" y="55.5" width="260" height="34"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fh0-eC-qaP" firstAttribute="centerX" secondItem="zys-kL-lG2" secondAttribute="centerX" id="l9v-4Q-hQA"/>
+                                    <constraint firstItem="fh0-eC-qaP" firstAttribute="centerY" secondItem="zys-kL-lG2" secondAttribute="centerY" id="xqc-Ut-r3O"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1Z-6z-oxQ">
+                                <rect key="frame" x="0.0" y="419" width="375" height="248"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eslam Hassan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xN-CZ-nEd">
+                                        <rect key="frame" x="8" y="216" width="359" height="24"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3xN-CZ-nEd" firstAttribute="trailing" secondItem="x1Z-6z-oxQ" secondAttribute="trailingMargin" id="bB8-7W-hgK"/>
+                                    <constraint firstItem="3xN-CZ-nEd" firstAttribute="leading" secondItem="x1Z-6z-oxQ" secondAttribute="leadingMargin" id="eK4-lT-d0z"/>
+                                    <constraint firstItem="3xN-CZ-nEd" firstAttribute="bottom" secondItem="x1Z-6z-oxQ" secondAttribute="bottomMargin" id="jgD-9N-ERs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1EN-kA-XPo"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="trailing" secondItem="x1Z-6z-oxQ" secondAttribute="trailing" id="7X3-oH-1tI"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="top" secondItem="pNz-YG-Kac" secondAttribute="top" id="BML-Vo-Pgm"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="leading" secondItem="x1Z-6z-oxQ" secondAttribute="leading" id="DdY-XC-AFS"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="leading" secondItem="zys-kL-lG2" secondAttribute="leading" id="FE1-2p-HPt"/>
+                            <constraint firstAttribute="trailing" secondItem="Ofx-BL-2sL" secondAttribute="trailing" id="NGL-Fh-mgB"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="trailing" secondItem="pNz-YG-Kac" secondAttribute="trailing" id="P9r-KN-e4P"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="trailing" secondItem="zys-kL-lG2" secondAttribute="trailing" id="TLO-ky-biC"/>
+                            <constraint firstAttribute="bottom" secondItem="zys-kL-lG2" secondAttribute="bottom" constant="248" id="V9e-GM-G7K"/>
+                            <constraint firstAttribute="bottom" secondItem="Ofx-BL-2sL" secondAttribute="bottom" constant="392" id="bsY-zo-HWb"/>
+                            <constraint firstItem="x1Z-6z-oxQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cAF-EL-vP7"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eXl-Y8-M5D"/>
+                            <constraint firstItem="x1Z-6z-oxQ" firstAttribute="bottom" secondItem="pNz-YG-Kac" secondAttribute="bottom" id="fqR-OC-r5s"/>
+                            <constraint firstItem="zys-kL-lG2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="254" id="hEv-YR-s7k"/>
+                            <constraint firstItem="Ofx-BL-2sL" firstAttribute="leading" secondItem="pNz-YG-Kac" secondAttribute="leading" id="mU8-fC-Uma"/>
+                            <constraint firstItem="x1Z-6z-oxQ" firstAttribute="top" secondItem="zys-kL-lG2" secondAttribute="bottom" id="uc1-LW-Bgu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diceeLogo" width="196" height="128"/>
+        <image name="newbackground" width="444.5" height="414"/>
+    </resources>
+</document>
